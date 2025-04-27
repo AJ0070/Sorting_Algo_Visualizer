@@ -4,7 +4,7 @@ A C++ application that visualizes various sorting algorithms using the **SFML** 
 
 ---
 
-## ✨ Features
+## Features
 
 - **Real-Time Visualization**: Animated sorting with color-coded bars.
 - **Sorting Algorithms**: 
@@ -38,7 +38,7 @@ A C++ application that visualizes various sorting algorithms using the **SFML** 
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -95,7 +95,7 @@ Ensure you link the required libraries:
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ### Run the Application
 
@@ -105,7 +105,7 @@ Ensure you link the required libraries:
 
 ### Controls
 
-#### 🧩 Buttons
+#### Buttons
 
 - **Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Heap Sort**: Start sorting
 - **Reshuffle**: Randomize data
@@ -119,7 +119,7 @@ Ensure you link the required libraries:
 - **Speed**: 0.5x – 3x
 - **Count**: Number of bars (10–200)
 
-#### 🏷️ Labels
+#### Labels
 
 - **Status**: E.g., "Quick Sort Running", "Paused"
 - **Comparisons / Swaps**: Operation counters
@@ -134,11 +134,11 @@ Ensure you link the required libraries:
 
 ---
 
-## 🧩 Code Structure
+## Code Structure
 
 - **main.cpp**: Core application logic
 
-### 🔧 Key Functions
+### Key Functions
 
 - `drawBars()`: Render bars
 - `shuffleData()`: Randomize data with Mersenne Twister
@@ -146,14 +146,14 @@ Ensure you link the required libraries:
 - `getGradientColor()`: Assign bar colors
 - `pauseCheck()`: Manage pause/step logic
 
-### 🧵 Threading
+### Threading
 
 - Sorting runs in a separate thread
 - Uses `std::atomic`, `std::mutex`, `std::condition_variable`
 
 ---
 
-## 🧰 Dependencies
+## Dependencies
 
 - **SFML**: Graphics, windowing, events
 - **TGUI**: GUI elements (buttons, sliders)
@@ -161,7 +161,7 @@ Ensure you link the required libraries:
 
 ---
 
-## ⚙️ Notes
+## Notes
 
 - Fixed 60 FPS for smooth visuals
 - Displays enrollment number `202303103510046` (requires `arial.ttf`)
@@ -171,7 +171,7 @@ Ensure you link the required libraries:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -192,13 +192,13 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with **SFML** and **TGUI**
 - Inspired by visual algorithm tutorials and open-source projects
